@@ -6,17 +6,17 @@
 固件下载地址：<https://www.tenda.com.cn/download/detail-3621.html>
 
 
-![](repo/Tenda%20AX12%20%20V1.0/2/img/xz.png)
+![](xz.png)
 
 ### **漏洞**：
 该漏洞位于`/goform/SetVirtualServerCfg`中对获取的请求参数`list`没有长度限制，最终可以导致堆栈溢出
 在`httpd`文件中的`sub_41DE60`函数中存在目标漏洞函数`sub_43B1B4`
 
-![](repo/Tenda%20AX12%20%20V1.0/2/img/v1.png)
+![](v1.png)
 
 漏洞存在于`sub_43AF3C`中：
 
-![](repo/Tenda%20AX12%20%20V1.0/2/img/v2.png)
+![](v2.png)
 
 可以看到将请求参数`list`传入变量`v3`，由于并未对变量`v3`做长度限制，下面的`sscanf`函数将以逗号作为分隔将`v3`的值分别传入`v12,v11,v10,v9`，而这几个变量只需要一定长度的填充就可以栈溢出，可以轻易的导致拒绝服务攻击，进一步构造exp能够获取shell,漏洞如下图:
 
