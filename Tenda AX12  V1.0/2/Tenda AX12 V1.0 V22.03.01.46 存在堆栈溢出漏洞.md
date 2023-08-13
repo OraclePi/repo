@@ -46,4 +46,4 @@ list="a"*0x2000
 ### **影响效果**：
 
 
-![](repo/Tenda%20AX12%20%20V1.0/2/img/after.png)
+![](after.png)
