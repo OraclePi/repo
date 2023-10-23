@@ -2,15 +2,22 @@
 
 ### **概述**：
 影响设备：totolink A3700R
+
 影响固件版本：V9.1.2u.6165_20211012
+
 影响：命令注入，可以导致任意命令执行
+
 固件下载地址：<https://download.totolink.tw/uploads/firmware/A3700R/TOTOLINK_A3700R_V9.1.2u.6165_20211012.zip>
+
 报送邮箱 : zwx918569613@gmail.com
+
 
 ![](Pasted%20image%2020231022165035.png)
 
 ### **漏洞**：
+
 该漏洞位于`cstecgi.cgi`中的函数`FUN_0042f718`，函数别名`UploadFirmwareFile`
+
 
 ![](Pasted%20image%2020231022165445.png)
 
