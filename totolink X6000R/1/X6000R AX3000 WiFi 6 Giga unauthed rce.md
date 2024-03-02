@@ -15,7 +15,7 @@ Firmware Download Link：<https://www.totolink.tw/support_view/X6000R>
 ### **Vulnerability**：
 
 The vulnerability is located in the function `sub_415774` within `shttpd`, with the function alias `setDiagnosisCfg`. This command can be executed without authorization.
-![[Pasted image 20240302155512.png]]
+![](Pasted%20image%2020240302160914.png)
 
 It calls `snprintf` to format and concatenate our `ip` param into the string `ping %s -w %d &>/var/log/pingCheck`, then passes the string to the `CsteSystem` function. 
 
@@ -48,4 +48,4 @@ Connection: close
 
 ### **IMPACT**：
 
-![[Pasted image 20240302155741.png]]
+![](Pasted%20image%2020240302160940.png)
