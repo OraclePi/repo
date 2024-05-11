@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "46a00d5431a35a84",
+    "type": "split",
+    "children": [
+      {
+        "id": "a363021f36d7e45d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c96fd1c4906a62a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "totolink X5000R/11/X5000R AX1800 V9.1.0cu.2300_B20230112 rce.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b42f57219941103",
+    "type": "split",
+    "children": [
+      {
+        "id": "13322a7277694fdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc3cd293e67093ea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2e308b02ec79cc96",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3b358733f9a53563",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e2c2e3a01a399246",
+    "type": "split",
+    "children": [
+      {
+        "id": "314ba2bc0bf2b11b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75c1ee144b4e4975",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "totolink X5000R/11/X5000R AX1800 V9.1.0cu.2300_B20230112 rce.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f953054d31612bc6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "totolink X5000R/11/X5000R AX1800 V9.1.0cu.2300_B20230112 rce.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57585dbf111e2ab2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f229bb424a7be0e9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "totolink X5000R/11/X5000R AX1800 V9.1.0cu.2300_B20230112 rce.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "2e308b02ec79cc96",
+  "lastOpenFiles": [
+    "totolink X5000R/9/X5000R AX1800 V9.1.0cu.2300_B20230112 rce.md",
+    "totolink X5000R/X5000R AX1800 V9.1.0cu.2300_B20230112 rce.md",
+    "totolink X6000R/1/X6000R AX3000 WiFi 6 Giga unauthed rce.md",
+    "totolink X5000R/2/X5000R AX1800 V9.1.0cu.2300_B20230112 rce.md"
+  ]
+}
